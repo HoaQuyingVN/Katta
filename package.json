@@ -1,0 +1,45 @@
+{
+  "name": "Katta",
+  "types": "dist/index.d.js",
+  "description": "The Katta (for PC)",
+  "version": "katta-9",
+  "license": "MIT",
+  "exports": "./katta.js",
+  "packageManager": "npm@8.0.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "directories": {
+    "man": "./katta.man"
+  },
+  "os": [
+    "windows"
+  ],
+  "workspaces": [
+    "client,pc"
+  ],
+  "contributors": [
+    {
+      "name": "Renovation[bot]",
+      "email": "bot@mend.io",
+      "url": "https://mend.io"
+    },
+    {
+      "name": "JoinFunding[bot]",
+      "email": "sendacoffee@it.joinfunding.xyz",
+      "url": "https://fund.me"
+    }
+  ],
+  "fundings": [
+    {
+      "type": "JoinFunding",
+      "url": "https://join.fund.me/kattaforpc"
+    }
+  ],
+  "dependencies": {
+    "sharp": "0.32.5",
+    "electron": "26.2.0",
+    "vue": "3.3.4"
+  }
+}
