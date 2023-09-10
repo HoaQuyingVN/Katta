@@ -1,0 +1,8 @@
+#input <integrity>.sh
+meta: 
+   - data: true
+description: "Katta is a app for you can access to download the .torrent or .x(Java Code Encoded) or you can create zipped file"
+iclass: 
+ -Jivy
+
+#'--An Kattafile contain a info about The repository your are watch
